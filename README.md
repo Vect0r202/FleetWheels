@@ -14,7 +14,6 @@ FleetWheels este o platformă de închirieri auto care facilitează gestionarea 
 ## Funcționalități Principale 🔑
 - **Căutare Avansată**: Utilizatorii pot căuta vehicule după nume, putere, preț și tip de combustibil.
 - **Filtrare și Sortare**: Filtrare avansată bazată pe atributelor mașinii și sortare după diferite criterii.
-- **Autentificare și Securitate**: Sistem de autentificare pentru gestionarea securizată a sesiunilor utilizatorilor.
 
 ![Filtrare Avansata](images/fleet_filter.png)
 
@@ -52,3 +51,5 @@ Frontend-ul este construit folosind tehnologii web standard (HTML, CSS) și este
 #### Baza de Date
 
 *   **PostgreSQL**: Este folosită pentru stocarea tuturor datelor legate de mașini, utilizatori și tranzacții. Schema bazei de date include tabele pentru mașini, utilizatori și alte entități necesare aplicației.
+
+Așadar, FleetWheels este o aplicație de închiriere auto modernă și ușor de utilizat, care oferă atât gestionarilor de flote, cât și clienților o experiență optimizată.
