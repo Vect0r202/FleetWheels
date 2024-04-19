@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html  lang="ro">
+    <head>
+        <meta name="description" content="Welcome to FleetWheels, your one-stop destination for hassle-free and affordable car rentals. Whether you're planning a weekend getaway, a family road trip, or need a reliable vehicle for business travel, we've got you covered.">
+        <meta name="keywords" content="Inchirieri auto, rezervare masini, inchiriere ieftina">
+        
+        <title><%- locals.prod.nume %></title>
+        <%- include("../fragmente/head") %>     
+    </head>
+    <body>
+    <%- include("../fragmente/header") %>
+
+    <main>
+        <section>
+            <h2>Car page</h2>
+                <article id="art-produs">
+                    <h3><span class="nume"><%- locals.prod.nume %></span></h3>
+                    <p>Car type: <span class="type"><%- locals.prod.tip_masina %> </span></p>
+                    <p>Price/day: <span class="pret"><%- locals.prod.pret_zi %> </span></p>
+                    <p>Description: <span class="descriere"><%- locals.prod.descriere %> </span></p>
+                    <p>Cylinder Capacity: <span class="ingrediente"><%- locals.prod.cap_cil %> </span></p>
+                    <p>Fuel: <span class="combustibil"><%- locals.prod.combustibil %> </span></p>
+                    <p>Power: <span class="putere"><%- locals.prod.putere %> </span></p>
+                    <p>Casco: <span class="casco"><%- locals.prod.casco %> </span></p>
+                    <p>Date: <span class="datee"><%- locals.prod.data_lansare %> </span></p>
+                        
+                </article>
+            
+        </section>
+    </main>
+
+    <%- include("../fragmente/footer") %>
+    </body>
+</html>

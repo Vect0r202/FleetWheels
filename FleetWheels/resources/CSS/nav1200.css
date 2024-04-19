@@ -1,0 +1,12 @@
+body {
+  --width-button:100px;
+  --height-meniu:25px;
+}
+
+#home-m {
+  display: block;
+}
+
+#home {
+  display: none;
+}

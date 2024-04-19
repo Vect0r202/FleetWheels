@@ -1,0 +1,77 @@
+body {
+    --width-button:80px;
+    --width-button:100%;
+}
+
+#home-m {
+    display: block;
+}
+
+#home {
+    display: none;
+}
+
+#hamburger {
+    display: block;
+    img{
+        height: var(--height-meniu);
+        width: auto;
+        display: block;
+        margin: 0;
+    }
+}
+
+
+ul.meniu {
+    display: none;
+}
+
+#ch-menu:checked+ul.meniu{
+    display: block;
+    animation-name: meniu_animation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    transform-origin: center top;
+}
+
+@keyframes meniu_animation {
+    0%{
+        opacity: 0;
+        transform: scale(0.5, 0);
+    }
+    50%{
+        opacity: 0.5;
+        transform: scale(0.5, 1);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+}
+
+#ch-menu:not(:checked)+ul.meniu{
+    display: block;
+    animation-name: meniu_animation_u;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    transform-origin: center top;
+}
+
+@keyframes meniu_animation_u {
+    0%{
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+    50%{
+        opacity: 0.5;
+        transform: scale(0.5, 1);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(0.5, 0);
+    }
+}

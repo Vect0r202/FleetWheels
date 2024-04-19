@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FleetWheels</title>
+        <meta name="keywords" content="Inchirieri auto, rezervare masini, inchiriere ieftina">
+        <meta name="descriere" content="Welcome to FleetWheels, your one-stop destination for hassle-free and affordable car rentals. Whether you're planning a weekend getaway, a family road trip, or need a reliable vehicle for business travel, we've got you covered.">
+        <%- include("../fragmente/head.ejs") %>
+    </head>
+    <body class="dark">
+    <%- include("../fragmente/header.ejs") %>
+        <p id="watermark"></p>
+        <main>
+            <div id="gridd">
+                <section id="about">
+                    <h2>About us</h2>
+                    <p>
+                        Ip: <%- locals.ip %>
+                        suma: <%- locals.a+locals.b %>
+                    </p>
+                    <article>Explore with ease - rent a car today! Our website offers a hassle-free rental experience with a wide range of vehicles to choose from. With transparent pricing and easy reservation options, you can plan your next adventure with confidence. Our team is dedicated to providing exceptional customer service and making your rental experience as smooth as possible. Book now and hit the road!</article>
+                    <article>Click <a href="https://www.instagram.com/victor.brinzea/" target="_blank">here</a> to check out our Instagram page!</article>
+                </section>
+    
+                <section id="cities">
+                    <h2>You can find us here:</h2>
+                </section>
+    
+                <section id="general_fleet">
+                    <h2>Here are some of our cars:</h2>
+                    <figure>
+                        <img src="resources/IMG/dodge.jpeg" class="car-fleet">
+                        <figcaption>Dodge Challanger</figcaption>
+                    </figure>
+                    <div class="container-iframe">
+                        <iframe name="ifr-video" width="560" height="315" src="https://www.youtube.com/embed/US05CFZ_JQI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div class="taburi-iframe">
+                            <a href="https://www.youtube.com/embed/6X1XXiShEeo" target="ifr-video">M4 Competition</a>
+                            <a href="https://www.youtube.com/embed/US05CFZ_JQI" target="ifr-video">Dodge Challanger Hellcat</a>
+                            <a href="https://www.youtube.com/embed/Jvr0U2ZInoE" target="ifr-video">Nissan GTR</a>
+                        </div>
+                    </div>  
+                </section>
+                
+                <section id="questions">
+                    <h2>Questions</h2><br>
+                    <ol>
+                        <li>
+                            <details>
+                                <summary>What types of vehicles are available for rent?</summary>
+                                <p>Our car rental website offers a wide range of vehicles, including compact cars, sedans, SUVs, minivans, and luxury cars. You can choose the vehicle that best suits your needs and preferences.</p>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>What is the rental cost per day/week/month?</summary>
+                                <p>The rental cost depends on various factors, such as the type of vehicle, rental duration, pickup/dropoff location, and optional extras. You can check the current rental rates on our website or contact our customer service for a customized quote.</p>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>What are the rental requirements, such as age, driver's license, and insurance?</summary>
+                                <p>To rent a car from us, you need to meet the minimum age requirement (usually 21 or 25 years old), have a valid driver's license issued by your country of residence, and provide proof of insurance. We also require a security deposit, which can be paid with a credit card or cash.</p>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Are there any restrictions on where I can take the car or how many miles I can drive?</summary>
+                                <p>Our rental agreements usually allow unlimited mileage within the country or state of rental, but may have restrictions on cross-border travel or specific routes. Please read the terms and conditions carefully or ask our customer service for clarification.</p>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>What happens if the car breaks down or is involved in an accident?</summary>
+                                <p>In case of a breakdown or accident, please contact our roadside assistance or emergency hotline immediately. We will provide you with instructions on how to proceed and may arrange a replacement vehicle or tow service if necessary. Please note that additional fees may apply for certain situations, such as negligence or violation of the rental agreement.</p>
+                            </details>
+                        </li>
+                    </ol>
+                </section>
+
+                <section id="calendar-ev">
+                    <p>OOOLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam aliquam tellus eu congue. Nulla facilisi. Maecenas ac consectetur dolor. Phasellus ac justo non turpis pharetra pulvinar ut nec risus. Proin consequat purus eu augue rutrum, at pulvinar neque vestib</p>
+                </section>
+
+                <section id="anunturi">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam aliquam tellus eu congue. Nulla facilisi. Maecenas ac consectetur dolor. Phasellus ac justo non turpis pharetra pulvinar ut nec risus. Proin consequat purus eu augue rutrum, at pulvinar neque vestib</p>
+                </section>
+
+                <section id="price-table">
+                    <div class="tablee">
+                    <table>
+                        <thead>
+                            <tr>
+                              <th>Car Type</th>
+                              <th>Model</th>
+                              <th>Period</th>
+                              <th>Price</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <tr>
+                              <td>Sedan</td>
+                              <td>Toyota Camry</td>
+                              <td>1 day</td>
+                              <td>$50</td>
+                            </tr>
+                            <tr>
+                              <td>SUV</td>
+                              <td>Jeep Wrangler</td>
+                              <td>3 days</td>
+                              <td>$150</td>
+                            </tr>
+                            <tr>
+                              <td>Hatchback</td>
+                              <td>Honda Fit</td>
+                              <td>5 days</td>
+                              <td>$200</td>
+                            </tr>
+                            <tr>
+                              <td>Convertible</td>
+                              <td>Ford Mustang</td>
+                              <td>2 days</td>
+                              <td>$120</td>
+                            </tr>
+                            <tr>
+                              <td>Minivan</td>
+                              <td>Chrysler Pacifica</td>
+                              <td>7 days</td>
+                              <td>$300</td>
+                            </tr>
+                            <tr>
+                              <td rowspan="2">Electric</td>
+                              <td>Tesla Model 3</td>
+                              <td>4 days</td>
+                              <td>$250</td>
+                            </tr>
+                            <tr class="span-electric">
+                              
+                              <td>Tesla Model S</td>
+                              <td>3 days</td>
+                              <td>$300</td>
+                            </tr>
+                            <tr>
+                              <td>Luxury</td>
+                              <td>Mercedes-Benz S-Class</td>
+                              <td>1 day</td>
+                              <td>$300</td>
+                            </tr>
+                          </tbody>
+                    </table>
+                    </div>
+                </section>
+
+                <section id="testimonials">
+                    <button class="btn btn-primary">ceva</button>
+                    <h2>Galerie</h2>
+                    <div id="grid-galerie"> 
+                        <% for (let imag of locals.imagini){ 
+                            let d=new Date();
+                            var v_luni=["ianuarie", "februarie", "martie", "aprilie", "mai", "iunie","iulie" ,"august", "septembrie", "octombrie", "noiembrie", "decembrie"];
+                            if (imag.luni && imag.luni.includes(v_luni[d.getMonth()])){
+                            %>
+                            <figure>
+                                <picture>
+                                    <source srcset="<%- imag.fisier_mediu %>" media="(max-width:1000px)" />
+                                    <img src="<%- imag.fisier_mare %>" alt="poza">
+                                </picture>
+                                <figcaption><%- imag.descriere %></figcaption>
+                            </figure>
+                            <% } %>
+                        <% } %>
+                    </div>
+                </section>
+                <div class="dinamic_gallery" id="dinamic_gallery_id">
+                        <figure class="fade show">
+                            <img src="/resources/IMG/gallery/911-gt3rs.jpg" alt="911 gt3rs">
+                            <figcaption>Porche 911GT3RS</figcaption>
+                        </figure>
+                        <figure class="fade show">
+                            <img src="/resources/IMG/gallery/camaro.jpg" alt="Camaro">
+                            <figcaption>Chevrolette Camaro</figcaption>
+                        </figure>
+                        <figure class="fade show">
+                            <img src="/resources/IMG/gallery/corvette.jpg" alt="corvette">
+                            <figcaption>Chevrolette Corvette</figcaption>
+                        </figure>
+                        <figure class="fade show">
+                            <img src="/resources/IMG/gallery/g-class.jpg" alt="g-class">
+                            <figcaption>Mercedes G-Class</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="/resources/IMG/gallery/Giulia-GTA.jpg" alt="Giulia-GTA">
+                            <figcaption>Alpha Romeo Giulia-GTA</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="/resources/IMG/gallery/gt63s.jpg" alt="gt63s">
+                            <figcaption>Mercedes-Benz GT63S</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="/resources/IMG/gallery/gtr.jpg" alt="gtr">
+                            <figcaption>Nissan GTR</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="/resources/IMG/gallery/m5-competition.jpg" alt="M5">
+                            <figcaption>BMW M5-Competition</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="/resources/IMG/gallery/mustang.jpg" alt="mustang">
+                            <figcaption>Ford Mustang</figcaption>
+                        </figure>
+                </div>
+
+            </div>
+            
+        </main>
+    </body>
+    <%- include("../fragmente/footer.ejs") %>
+</html>

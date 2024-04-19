@@ -1,0 +1,49 @@
+{
+	"cale_galerie":"resources/IMG/gallery",
+	"imagini": [
+		{
+			"fisier":"911-gt3rs.jpg",
+			"descriere":"Porche 911 GT3-RS",
+			"luni":["martie","februarie","noiembrie","aprilie"]
+		},
+		{
+			"fisier":"camaro.jpg",
+			"descriere":"Chevrolet Camaro",
+			"luni":["ianuarie","februarie","iunie"]
+			
+		},
+		{
+			"fisier":"g-class.jpg",
+			"descriere":"Mercedes G-Class",
+			"luni":["ianuarie","noiembrie","iunie","martie","aprilie"]
+		},
+		{
+			"fisier":"Giulia-GTA.jpg",
+			"descriere":"Alpha Romeo Giulia GTA",
+			"luni":["noiembrie","aprilie","septembrie"]
+		},
+		{
+			"fisier":"gt63s.jpg",
+			"descriere":"Mercedes GT63S"
+		},
+		{
+			"fisier":"gtr.jpg",
+			"descriere":"Nissan GTR R36"
+		},
+		{
+			"fisier":"mustang.jpg",
+			"descriere":"Ford Mustang",
+			"luni":["august","iulie"]
+		},
+		{
+			"fisier":"corvette.jpg",
+			"descriere":"Chevrolet Corvette",
+			"luni":["august"]
+		},
+		{
+			"fisier":"m5-competition.jpg",
+			"descriere":"BMW M5 Competition",
+			"luni":["august","iulie"]
+		}
+	]
+}

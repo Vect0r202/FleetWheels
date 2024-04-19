@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "path": "^0.12.7",
+    "pg": "^8.11.5",
+    "sass": "^1.75.0",
+    "sharp": "^0.32.6"
+  },
+  "name": "fleetwheels",
+  "version": "1.0.0",
+  "description": "car rental website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "inchirieri",
+    "auto",
+    "rezervare",
+    "masini",
+    "inchiriere",
+    "ieftina",
+    "fleetwheels"
+  ],
+  "author": "Victor Brinzea",
+  "license": "ISC"
+}

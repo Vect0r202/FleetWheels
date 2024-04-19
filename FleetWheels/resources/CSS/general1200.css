@@ -1,0 +1,28 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    --color1: #C0C4EB;
+    --color2: #545566;
+    --color3: #7781E6;
+    --color4: #353966;
+    --color5: #5D64B3;
+    --page-spacing: 30px;
+    --padding-section: 7px;
+    --margin-body: 20px;
+    --font-size: 110%;
+    max-width: 1200px;
+}
+
+#gridd {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "z-about z-about"
+                         "z-fleet z-fleet"
+                         "z-cities z-questions"
+                         "z-calendar-ev z-price-table"
+                         "z-anunturi z-price-table"
+                         "z-testimonials z-testimonials"
+    ;
+    gap: 10px 5px;
+}

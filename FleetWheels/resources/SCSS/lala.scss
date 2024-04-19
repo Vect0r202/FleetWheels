@@ -1,0 +1,7 @@
+div{
+    &:hover > & > p >{
+        a,b{
+            background: yellow;
+        }
+    }
+}
