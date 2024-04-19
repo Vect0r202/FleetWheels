@@ -52,4 +52,4 @@ Frontend-ul este construit folosind tehnologii web standard (HTML, CSS) și este
 
 *   **PostgreSQL**: Este folosită pentru stocarea tuturor datelor legate de mașini, utilizatori și tranzacții. Schema bazei de date include tabele pentru mașini, utilizatori și alte entități necesare aplicației.
 
-Așadar, FleetWheels este o aplicație de închiriere auto modernă și ușor de utilizat, care oferă atât gestionarilor de flote, cât și clienților o experiență optimizată.
+Așadar, FleetWheels este un proiect școlar în care am construit o aplicație de închiriere auto modernă și ușor de utilizat, care oferă atât gestionarilor de flote, cât și clienților o experiență optimizată.
